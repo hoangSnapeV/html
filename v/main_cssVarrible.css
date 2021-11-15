@@ -1,0 +1,7 @@
+:root {
+    --text_color: red;
+}
+/* đặt hàm cục bộ */
+h1 {
+    color: var(--text_color);
+}
