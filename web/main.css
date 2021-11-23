@@ -1,0 +1,47 @@
+.two{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 1000px;
+    
+}
+.part1{
+    background-color: white;
+    display: flex;
+    
+}
+.part2{
+    background-color:paleturquoise;
+}
+.yourname{
+    max-width: 90%;
+    height: 170px;
+    background-color: blue;
+    
+}
+.name{
+    color: white;
+    position: relative;
+    left: 30px;
+}
+
+.work{
+    margin-top: 15px;
+    
+}
+.block{
+    display: block;
+    margin-top: 20px;
+    color: blue;
+}
+.time{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+
+}
+.end{
+    margin-top: 30px;
+}
+p{
+    color: gray;
+}

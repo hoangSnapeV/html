@@ -1,59 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>gh </title>
-        <meta charset="utf-8">
-        <!-- <link rel="stylesheet" href="main_1.css">  -->
-        <style>
-            div.anh {
-                position: absolute;
-                top: 0;
-                right: 0;
-                width: 50vh;
-                height: 100vh;
-            }
-            span {
-                display: block;
-            }
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        div.anh {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        max-width: 50%;
+        max-height: 100%;
+        
+        }
+        
+        span {
+            display: block;
+        }
 
-        </style>
+        div.relative {
+            position: relative;
+            top: 100px;
+            left: 80px;
+            
+        }
+        .first {
+            font-size: 200px;
+        }
+        .para2 {
+            font-size: 17px; color: white;
+        }
+
+        .column {
+            float: left;
+            width: 16,67%;
+            padding-top: 40px;
+            padding-right: 50px;
+            color: white;
+        }
+        
+    </style>
     </head>
 
     <body style="background-color: blue;">
+
         <div class="anh">
             <img src="./anh.jpg" alt="">
         </div>
+        
+        <div class="relative">
 
-        <div>
-            <h2>Get insights that help your business grow.</h2>
+        <div style="font-size: 20px; color: white;">
+            <h1>Get <b style="color: purple;">insights</b> that help <span>your business grow.</span> </h1>
         </div>
         
 
-        <div>
+        <div class="para2">
             <span>Discover the benefits of data analytics and make</span> <span>better decisions regarding revenue, customer</span> <span>experience, and overall efficiency</span>
             
-               
-            
         </div>
 
-        <div class="task1">
-            <div class="task1">
-                <h3>10k+</h3>
-                <h5>COMPANIES</h5>
+        <div>
+            <div class="column">
+                <h2>10k+</h2>
+                <p>COMPANIES</p>
             </div>
             
-            <div class="task1">
-                <h3>314</h3>
-                <h5>TEMPLATES</h5>
+            <div class="column">
+                <h2>314</h2>
+                <p>TEMPLATES</p>
             </div>
             
-            <div class="task1">
-                <h3>12M+</h3>
-                <h5>QUERIES</h5>
+            <div class="column">
+                <h2>12M+</h2>
+                <p>QUERIES</p>
             </div>
             
+        </div>    
         </div>
-        
     </body>
     
 </html>
